@@ -1,10 +1,10 @@
 # PEAKS Rest API
 
-- [ ] 1 Create database table data with "value" as float attribute
-- [ ] 2 Create model Data
+- [ ] 1 Create database table series and data with "value" as float attribute
+- [ ] 2 Create model Series and Data
 - [ ] 3 Create model Signal
 - [ ] 4 Create database table signals with "value" attribute as boolean
-- [ ] 5 create fabricator for Data model
+- [ ] 5 create fabricator for Series and Data model
 - [ ] 6 create fabricator for Signal model
 - [ ] 7 create controller for data
 - [ ] 8 create route
