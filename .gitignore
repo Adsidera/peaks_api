@@ -19,5 +19,9 @@
 
 .byebug_history
 
+# ignore .keep files
+*/.keep
+*/*/.keep
+
 # Ignore master key for decrypting credentials and more.
 /config/master.key
