@@ -1,13 +1,13 @@
 # PEAKS Rest API
 
-- [ ] Create database table data with "value" as float attribute
-- [ ] Create model Data
-- [ ] Create model Signal
-- [ ] Create database table signals with "value" attribute as boolean
-- [ ] create fabricator for Data model
-- [ ] create fabricator for Signal model
-- [ ] create controller for data
-- [ ] create route
-- [ ] decouple output creator logic of signal as a Ruby object
-- [ ] define GET action
-- [ ] define POST action
+- [ ] 1 Create database table data with "value" as float attribute
+- [ ] 2 Create model Data
+- [ ] 3 Create model Signal
+- [ ] 4 Create database table signals with "value" attribute as boolean
+- [ ] 5 create fabricator for Data model
+- [ ] 6 create fabricator for Signal model
+- [ ] 7 create controller for data
+- [ ] 8 create route
+- [ ] 9 decouple output creator logic of signal as a Ruby object
+- [ ] 10 define GET action
+- [ ] 11 define POST action
