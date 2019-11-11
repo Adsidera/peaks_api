@@ -18,3 +18,4 @@
 - [x] Check json responses via Postman
 - [x] Created tests for Postman
 - [x] Created simple visualization in Postman
+- [ ] Deploy to heroku as production
