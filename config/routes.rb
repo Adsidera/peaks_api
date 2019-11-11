@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :series do
-        resources :data
-      end
+      resources :data
 
-      root 'series#index'
+      root 'data#index'
     end
   end
 end
