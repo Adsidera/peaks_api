@@ -1,13 +1,20 @@
 # PEAKS Rest API
 
-- [ ] 1 Create database table series and data with "value" as float attribute
-- [ ] 2 Create model Series and Data
-- [ ] 3 Create model Signal
-- [ ] 4 Create database table signals with "value" attribute as boolean
-- [ ] 5 create fabricator for Series and Data model
-- [ ] 6 create fabricator for Signal model
-- [ ] 7 create controller for data
-- [ ] 8 create route
-- [ ] 9 decouple output creator logic of signal as a Ruby object
-- [ ] 10 define GET action
-- [ ] 11 define POST action
+- [x] Customize Gemfile with: `fabrication`, `faker`, `pry`, `awesome_print`, `rspec`, `shoulda_matchers`, `rubocop`, `rack-cors`, `pg`
+- [x] Create database table data with "value" as float attribute
+- [x] Change schema format to :sql
+- [x] Create model Datum
+- [x] Create service SignalCreator for analysing and calculating related signal
+- [x] create fabricator for Datum model
+- [x] seed data
+- [x] create controller for data
+- [x] create routes - root to data#index
+- [x] define data#index json response with data and related signals via SignalCreator
+- [x] added conditional assignment of data according to the presence of start and end day params
+- [x] unit specs for Datum model
+- [x] unit spec for SignalCreator
+- [x] unit spec for DataController
+- [ ] request spec
+- [x] Check json responses via Postman
+- [x] Created tests for Postman
+- [x] Created simple visualization in Postman
