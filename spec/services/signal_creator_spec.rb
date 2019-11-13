@@ -22,7 +22,7 @@ RSpec.describe SignalCreator do
     context "with data exceeding sensitivity margin" do
       before do
         @num = rand(@alert_margin..@threshold)
-        @output_signal = signal_creator.send_signal(@num, @threshold, @sensitivity)
+        @output_signal = signal_creator.send_signal(@num)
       end
 
       it "returns 1" do
@@ -34,7 +34,7 @@ RSpec.describe SignalCreator do
     context "with data below sensitivity margin" do
       before do
         @num = rand(0.1..@alert_margin)
-        @output_signal = signal_creator.send_signal(@num, @threshold, @sensitivity)
+        @output_signal = signal_creator.send_signal(@num)
       end
 
       it "returns 0" do
