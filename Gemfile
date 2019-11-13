@@ -29,7 +29,9 @@ gem 'awesome_print'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'fast_jsonapi'
+gem 'active_model_serializers'
+gem 'batch-loader'
+gem "ams_lazy_relationships"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
@@ -49,6 +51,7 @@ group :test do
 end
 
 group :development do
+  gem 'bullet'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'

@@ -1,0 +1,2 @@
+Fabricator(:series) do
+end

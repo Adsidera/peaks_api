@@ -9,6 +9,9 @@ AllCops:
 Bundler/OrderedGems:
   Enabled: false
 
+Layout/AlignHash:
+  Enabled: false
+
 Layout/BlockAlignment:
   Enabled: false
 
@@ -18,8 +21,14 @@ Layout/IndentationWidth:
 Lint/UselessAssignment:
   Enabled: false
 
+Metrics/BlockLength:
+  Max: 30
+
 Metrics/LineLength:
   Max: 120
+
+Metrics/MethodLength:
+  Max: 15
 
 Metrics/AbcSize:
   Enabled: false
@@ -49,6 +58,9 @@ Style/GuardClause:
   Enabled: false
 
 Style/MixinUsage:
+  Enabled: false
+
+Style/RedundantReturn:
   Enabled: false
 
 Style/RescueStandardError:

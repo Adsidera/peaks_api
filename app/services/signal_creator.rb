@@ -6,16 +6,15 @@ class SignalCreator
     @sensitivity = sensitivity.to_f
   end
 
-  def analyse(data)
-    data.map { |value| send_signal(value, threshold, sensitivity) }
-  end
-
-  def send_signal(num, threshold, sensitivity)
-    alert_margin = threshold - (threshold * (sensitivity / 100))
+  def send_signal(num)
     if num >= alert_margin
       return 1
     else
       return 0
     end
+  end
+
+  def alert_margin
+    threshold - (threshold * (sensitivity / 100))
   end
 end
