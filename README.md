@@ -1,6 +1,7 @@
 # PEAKS Rest API
 There is a `Series` and `Datum` model objects.
 A `Series` has many `Data`.
+The initial `Series` and `Data` are seeded and persisted in a `postgresql` database, from extracting the sample data from the original excel file (which I converted in a CSV one).
 
 A `SignalCreator` service gets initialized with a `threshold` and `sensitivity` parameters.
 
