@@ -9,7 +9,7 @@ I added the `sensitivity` parameter as a percentage, as to decide from which per
 
  The `SignalCreator` method `send_signal`is responsible for the analysis of the `data` and the output of the signal in 0 or 1.
 
-The `Datum` model then uses `send_signal` to ouput the result in its `output signal` instance method.
+The `Datum` model then uses `send_signal` to output the result in its `output signal` instance method.
 
 The endpoint `GET /api/v1/series` is the endpoint responsible for retrieving series, analyzing their data and assessing which of them has exceeded a specified threshold.
 
